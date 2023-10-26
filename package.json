@@ -1,0 +1,19 @@
+{
+  "name": "lerna-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lerna:publish": "lerna publish",
+    "lerna:bootstrap": "npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^7.4.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
